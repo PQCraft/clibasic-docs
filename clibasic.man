@@ -2,44 +2,38 @@
 .SH NAME
 CLIBASIC \- Command Line Interface BASIC
 .SH SYNOPSIS
-\fBclibasic\fR [\fIOPTION\fR]...
+\fBclibasic\fR [[\fB-x\fR] \fIFILE\fR [\fIARG\fR]...]
 .SH DESCRIPTION
 A BASIC interpreter for the terminal (or console), written in C
 .SH OPTIONS
 .PP
 .TP 7
 \fB\-\-help\fR
-Shows the usage and option information.
+Displays the usage and option information.
 .TP
 \fB\-\-version\fR
-Shows the version and license information.
-.TP
-\fB\-\-args\fR [\fI\,ARG\/\fR]...
-Passes ARGs to the program.
+Displays the version and license information.
 .TP
 \fB\-x\fR, \fB\-\-exec\fR \fI\,FILE\/\fR [\fI\,ARG\/\fR]...
-Runs and passes ARGs to FILE.
-.TP
-\fB\-f\fR, \fB\-\-file\fR \fI\,FILE\/\fR
-Runs FILE.
+Runs FILE and passes ARGs to FILE.
 .TP
 \fB\-c\fR, \fB\-\-command\fR \fI\,COMMAND\/\fR
 Runs COMMAND and exits.
 .TP
 \fB\-k\fR, \fB\-\-keep\fR
-Stops CLIBASIC from resetting text attributes.
+Stops CLIBASIC from resetting text attributes when exiting.
 .TP
 \fB\-s\fR, \fB\-\-skip\fR
 Skips searching for autorun programs.
 .TP
 \fB\-i\fR, \fB\-\-info\fR
-Enables the info text.
+Displays an info string when starting in shell mode.
 .TP
 \fB\-r\fR, \fB\-\-redirection\fR
-Enables support for redirecting STDIN, STDOUT, and STDERR.
+Allows for redirection (this may cause issues).
 .TP
 \fB\-n\fR, \fB\-\-newline\fR
-Prints a newline if the cursor is not at the beginning of the line before exiting.
+Ensures the cursor is placed on a new line when exiting.
 .SH EXAMPLES
 .TP
 \fBclibasic\fR
