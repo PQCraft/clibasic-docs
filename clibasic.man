@@ -34,6 +34,12 @@ Allows for redirection (this may cause issues).
 .TP
 \fB\-n\fR, \fB\-\-newline\fR
 Ensures the cursor is placed on a new line when exiting.
+.TP
+\fB\-e\fR, \fB\-\-no-escapes\fR
+Disables escape codes.
+.TP
+\fB\-p\fR, \fB\-\-no-curpos\fR
+Stops CLIBASIC from getting the cursor position.
 .SH EXAMPLES
 .TP
 \fBclibasic\fR
