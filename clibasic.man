@@ -18,10 +18,13 @@ Displays the version and license information.
 Runs FILE and passes ARGs to FILE.
 .TP
 \fB\-c\fR, \fB\-\-command\fR \fI\,COMMAND\/\fR
-Runs COMMAND and exits.
+Runs COMMAND as if in shell mode.
 .TP
 \fB\-k\fR, \fB\-\-keep\fR
-Stops CLIBASIC from resetting text attributes when exiting.
+Stops the text attributes from being reset.
+.TP
+\fB\-K\fR, \fB\-\-keep\-all\fR
+Stops the text attributes and terminal state from being reset.
 .TP
 \fB\-s\fR, \fB\-\-skip\fR
 Skips searching for autorun programs.
