@@ -2,7 +2,7 @@
 .SH NAME
 CLIBASIC \- Command Line Interface BASIC
 .SH SYNOPSIS
-\fBclibasic\fR [[\fB-x\fR] \fIFILE\fR [\fIARG\fR]...]
+\fBclibasic\fR [\fIOPTIONS\fR]... [[\fB-x\fR] \fIFILE\fR [\fIARG\fR]...]
 .SH DESCRIPTION
 A BASIC interpreter for the terminal (or console), written in C
 .SH OPTIONS
